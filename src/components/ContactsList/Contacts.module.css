@@ -1,0 +1,23 @@
+.list {
+  margin-bottom: 15px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  padding: 8px 12px;
+  font-weight: var(--primary-font-weight);
+  background-color: transparent;
+  border: 2px solid var(--accent-color);
+  border-radius: 4px;
+  cursor: pointer;
+}

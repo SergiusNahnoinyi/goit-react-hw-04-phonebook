@@ -1,0 +1,40 @@
+:root {
+  --primary-text: 'Segoe UI';
+  --primary-font-size: 18px;
+  --primary-font-weight: 500;
+  --primary-line-height: 30px;
+  --primary-letter-spacing: 0.02em;
+
+  --primary-text-color: black;
+  --secondary-text-color: grey;
+  --accent-color: lightblue;
+
+  --primary-background-color: lightblue;
+  --secondary-background-color: white;
+}
+
+body {
+  font-family: var(--primary-text), -apple-system, BlinkMacSystemFont, 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: var(--primary-font-size);
+  font-weight: var(--primary-font-weight);
+  line-height: var(--primary-line-height);
+  letter-spacing: var(--primary-letter-spacing);
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+}
+
+main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h1,
+h2,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}

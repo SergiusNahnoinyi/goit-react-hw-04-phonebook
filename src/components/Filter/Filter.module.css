@@ -1,0 +1,22 @@
+.label {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  font-weight: var(--primary-font-weight);
+  letter-spacing: var(--primary-letter-spacing);
+  border: 2px solid var(--accent-color);
+  border-radius: 4px;
+}
+
+.input:hover,
+.input:focus {
+  border: 2px solid #2196f3;
+  cursor: pointer;
+}
